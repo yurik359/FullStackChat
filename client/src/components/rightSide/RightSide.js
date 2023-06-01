@@ -8,6 +8,7 @@ import { ChatContext } from "../../context/ChatContext";
 import { v4 as uuid } from "uuid";
 import HeaderRight from "../HeaderRight/HeaderRight";
 import { WebSocketContext } from "../../context/websocketContext";
+
 const RightSide = () => {
   const { currentUser } = useContext(AuthContext);
   const [value, setValue] = useState("");
